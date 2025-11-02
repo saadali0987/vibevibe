@@ -6,33 +6,41 @@ import { FiExternalLink, FiStar } from "react-icons/fi";
 const projects = [
   {
     name: "SaadDocs",
-    tagline: "Google Docs, but make it spicy.",
+    tagline: "Google Docs, but built in our dorm with extra brain cells.",
     description:
-      "Realtime collaboration with live doodles, emoji reactions, and ambient lo-fi playlists baked in.",
-    accent: "from-vibe-500 via-fuchsia-500 to-orange-400"
+      "Realtime collaborative editor powered by Next.js, TipTap, and Convex. Features live comments, templates, notifications, and export options — all wrapped in good vibes.",
+    accent: "from-indigo-500 via-violet-500 to-fuchsia-500"
   },
   {
-    name: "VibeStream",
-    tagline: "The Twitch of tech talks - no boring slides allowed.",
+    name: "Idea Fusion",
+    tagline: "Where ideas meet whiteboards and become legends.",
     description:
-      "Interactive streams where devs drop code, audience drops prompts, and confetti rains on shipped features.",
-    accent: "from-sky-400 via-cyan-400 to-emerald-400"
+      "A collaborative workspace combining a text editor (Editor.js) with a live Excalidraw whiteboard. Built with Convex, Kinde, and Next.js to help teams think visually and write simultaneously.",
+    accent: "from-pink-500 via-rose-400 to-orange-400"
   },
   {
-    name: "PixelPulse",
-    tagline: "Analytics dashboards with a pulse and personality.",
+    name: "AI Career Coach",
+    tagline: "Your personal AI mentor — without the awkward small talk.",
     description:
-      "Data storytelling that feels like a graphic novel. Motion-powered charts, sass-powered tooltips.",
-    accent: "from-amber-400 via-rose-500 to-violet-500"
+      "A career growth platform powered by Gemini API and Prisma. Helps users generate CVs, prepare for interviews, and discover skills to level up — all with data-driven insights.",
+    accent: "from-sky-400 via-cyan-500 to-emerald-400"
   },
   {
-    name: "BugBuddy",
-    tagline: "Your friendly debugging sidekick with jokes on tap.",
+    name: "AutoDev Setup",
+    tagline: "Set up a dev environment just by saying it.",
     description:
-      "AI-assisted triage, meme generated changelog summaries, and celebratory gifs when tickets close.",
-    accent: "from-emerald-400 via-lime-400 to-sky-400"
+      "An AI-powered tool that turns plain English into CLI commands. Automatically bootstraps frameworks (Next.js, React, etc.), installs dependencies, and initializes Git — like having a tech intern that never sleeps.",
+    accent: "from-amber-400 via-orange-500 to-rose-500"
+  },
+  {
+    name: "CampusLink",
+    tagline: "Find your friends before they find the cafeteria.",
+    description:
+      "A mobile app for university students to share real-time campus locations (class, library, cafe). Focused on privacy, permission-based visibility, and zero stalking vibes.",
+    accent: "from-emerald-400 via-lime-400 to-teal-400"
   }
 ];
+
 
 export function ProjectsSection() {
   return (
@@ -90,7 +98,7 @@ export function ProjectsSection() {
                   transition={{ duration: 3.5, repeat: Infinity, ease: "easeInOut" }}
                 >
                   <FiStar aria-hidden />
-                  <span>Hover to feel the sparkle</span>
+             
                 </motion.div>
               </div>
             </motion.article>

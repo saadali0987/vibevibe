@@ -19,39 +19,39 @@ const team: TeamMember[] = [
     name: "Saad",
     role: "Frontend Magician",
     icon: FiFramer,
-    image: "https://ibb.co/cc7gCPd8",
+    image: "https://i.ibb.co/603mwX51/Whats-App-Image-2025-11-02-at-10-51-06-PM.jpg",
     bio: "Turns coffee into components and bug reports into punchlines.",
     quote: "CSS? More like see-yes!"
   },
   {
-    name: "Indie",
+    name: "Fahad Saleem",
     role: "Motion Maestro",
     icon: FiActivity,
-    image: "https://ibb.co/HLR3k1jm",
+    image: "https://i.ibb.co/TBfNgv9K/Whats-App-Image-2025-11-02-at-10-51-07-PM.jpg",
     bio: "Time traveler from the future sent back to make interfaces dance.",
     quote: "If it moves, it grooves."
   },
   {
-    name: "Nova",
+    name: "Abdul Wahab",
     role: "Product Strategist",
     icon: FiMap,
-    image: "https://ibb.co/cS1Zw8jk",
+    image: "https://i.ibb.co/LX8crg3Y/Whats-App-Image-2025-11-02-at-10-51-07-PM-1.jpg",
     bio: "Keeps the chaos charming and the roadmap full of plot twists.",
     quote: "User delight isn't optional."
   },
   {
-    name: "Jet",
+    name: "Muhammad Usman",
     role: "Fullstack Adventurer",
     icon: FiServer,
-    image: "https://ibb.co/Gv6r5xzs",
+    image: "https://i.ibb.co/GvbxtXjM/Whats-App-Image-2025-11-02-at-10-51-08-PM.jpg",
     bio: "Writes APIs that read like mixtapes and deploy like mic drops.",
     quote: "Ship it with swagger."
   },
   {
-    name: "Lyric",
+    name: "Shaheer Sami",
     role: "Experience Alchemist",
     icon: FiFeather,
-    image: "https://ibb.co/DfxtWrn8",
+    image: "https://i.ibb.co/rKqN1TVn/Whats-App-Image-2025-11-02-at-10-51-07-PM-2.jpg",
     bio: "Blends narrative, design, and tech until every screen sings.",
     quote: "Great UX should feel like a plot twist you didn?t see coming."
   }
@@ -68,10 +68,7 @@ export function TeamSection() {
           <h2 className="text-3xl font-semibold sm:text-4xl">
             The crew making the internet a little weirder - in the best way.
           </h2>
-          <p className="max-w-2xl text-sm text-slate-600 dark:text-slate-200/80">
-            Hover over each human to reveal their superpowers. Spoiler: everyone has
-            at least three.
-          </p>
+         
         </div>
 
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
@@ -90,7 +87,7 @@ export function TeamSection() {
                 aria-hidden
               />
               <div className="relative flex flex-col gap-5">
-                <div className="relative h-40 w-full overflow-hidden rounded-2xl">
+                <div className="relative   h-56 w-full overflow-hidden rounded-2xl">
                   <Image
                     src={member.image}
                     alt={`${member.name} portrait`}

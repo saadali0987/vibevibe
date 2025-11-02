@@ -85,7 +85,7 @@ export function ContactSection() {
             Join the vibe
           </p>
           <h2 className="text-3xl font-semibold sm:text-4xl">
-            Got an idea? Let\'s make it vibe.
+            Got an idea? Let's make it vibe.
           </h2>
           <p className="max-w-lg text-sm text-slate-600 dark:text-slate-200/80">
             We craft playful, polished experiences for teams who are ready to be unforgettable.
@@ -137,7 +137,7 @@ export function ContactSection() {
                 name="name"
                 required
                 className="mt-2 w-full rounded-2xl border border-slate-900/10 bg-white/70 px-4 py-3 text-sm text-slate-900 placeholder:text-slate-400 focus:border-emerald-300/60 focus:outline-none focus:ring-2 focus:ring-emerald-400/40 dark:border-white/10 dark:bg-white/5 dark:text-white dark:placeholder:text-white/40"
-                placeholder="Wanda the Visionary"
+                placeholder="Hania Amir"
                 disabled={isSubmitting}
               />
             </div>
@@ -151,7 +151,7 @@ export function ContactSection() {
                 type="email"
                 required
                 className="mt-2 w-full rounded-2xl border border-slate-900/10 bg-white/70 px-4 py-3 text-sm text-slate-900 placeholder:text-slate-400 focus:border-emerald-300/60 focus:outline-none focus:ring-2 focus:ring-emerald-400/40 dark:border-white/10 dark:bg-white/5 dark:text-white dark:placeholder:text-white/40"
-                placeholder="wanda@vision.studio"
+                placeholder="HaniaAmir@apkayDilMai.com"
                 disabled={isSubmitting}
               />
             </div>

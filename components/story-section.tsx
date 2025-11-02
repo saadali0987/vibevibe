@@ -4,30 +4,37 @@ import { motion } from "framer-motion";
 
 const storyBeats = [
   {
-    title: "Chapter 1: Dorm Room Dreams",
-    caption: "Three students, four laptops, and a dangerously full coffee punch card.",
-    punchline: "Started in a dorm room... still coding in one, just with better Wi-Fi.",
-    icon: "\uD83C\uDFE0" // house
+    title: "Chapter 1: The First Ping",
+    caption: "It started with one random message: 'Bro, what if we actually build this?'",
+    punchline: "No funding. No plan. Just caffeine and questionable confidence.",
+    icon: "💡" // light bulb
   },
   {
-    title: "Chapter 2: Hackathon High",
-    caption: "Won 'Best Use of Chaos' at a 3am hackathon. Judges still confused.",
-    punchline: "Lesson learned: naps are optional, vibes aren't.",
-    icon: "\uD83C\uDFC6" // trophy
+    title: "Chapter 2: Late Nights, Bright Screens",
+    caption: "Days blurred into nights as Git commits piled up and bugs multiplied.",
+    punchline: "We didn’t sleep much, but our error logs sure did grow.",
+    icon: "🌙" // moon
   },
   {
-    title: "Chapter 3: The Collective",
-    caption: "Turned our group chat into a studio. Emojis became deliverables.",
-    punchline: "We ship joy with every commit (and at least one meme).",
-    icon: "\uD83E\uDD1D" // handshake
+    title: "Chapter 3: The First Launch",
+    caption: "After weeks of chaos, we finally shipped our first project — and it *worked!*",
+    punchline: "Only crashed twice on launch day. A win in our books.",
+    icon: "🚀" // rocket
   },
   {
-    title: "Chapter 4: Future Funk",
-    caption: "Now partnering with brands that get it. We remix their ideas into experiences.",
-    punchline: "Plot twist: the future called - asked us to design it.",
-    icon: "\uD83D\uDE80" // rocket
+    title: "Chapter 4: From Hustle to Harmony",
+    caption: "We learned how to mix creativity with clean code, turning side projects into real work.",
+    punchline: "Now, we build for clients who value good vibes as much as good design.",
+    icon: "🤝" // handshake
+  },
+  {
+    title: "Chapter 5: What’s Next?",
+    caption: "The story’s still being written — and you might just be part of the next chapter.",
+    punchline: "Stick around. The best bugs make the best stories.",
+    icon: "✨" // sparkle
   }
 ];
+
 
 export function StorySection() {
   return (
